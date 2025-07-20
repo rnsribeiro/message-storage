@@ -1,0 +1,19 @@
+### Write a new message to the MessageStorage contract
+POST http://localhost:3000/set-message
+Content-Type: application/json
+
+{
+    "message": "Hello, Polygon! This is a first message."
+}
+
+###
+
+### Retrieve a message by ID (e.g., ID 1)
+GET http://localhost:3000/get-message/1
+Content-Type: application/json
+
+###
+
+### Get the total number of messages stored in the contract
+GET http://localhost:3000/total-messages
+Content-Type: application/json

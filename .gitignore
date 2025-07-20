@@ -1,0 +1,50 @@
+# Go-specific ignores
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+pkg/
+*.test
+*.out
+*.o
+*.a
+*.s
+
+# Environment variables and sensitive files
+.env
+.env.local
+*.env
+
+# Node.js artifacts (for solcjs)
+node_modules/
+package-lock.json
+
+# Temporary files
+tmp/
+*.tmp
+*.bak
+*.swp
+*~
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Build and dependency directories
+vendor/
+Godeps/
+
+# ABI directory (optional, include if you want to regenerate abis/UniqIDNFT.json)
+# abis/
